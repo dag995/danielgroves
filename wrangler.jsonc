@@ -4,10 +4,11 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "my-svelte-app",
+	"name": "danielgrovescouk",
 	"compatibility_date": "2025-08-13",
 	"compatibility_flags": [
-		"nodejs_als"
+		"nodejs_als",
+		"nodejs_compat"
 	],
 	"pages_build_output_dir": ".svelte-kit/cloudflare",
 	"observability": {
