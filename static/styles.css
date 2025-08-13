@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'PP Pangram Sans';
+  src: url('./font/PPPangramSans-Bold.eot');
+  src: url('./font/PPPangramSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./font/PPPangramSans-Bold.woff2') format('woff2'),
+      url('./font/PPPangramSans-Bold.woff') format('woff'),
+      url('./font/PPPangramSans-Bold.ttf') format('truetype'),
+      url('./font/PPPangramSans-Bold.svg#PPPangramSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  letter-spacing: normal;
+}
+
+@font-face {
+  font-family: 'PP Pangram Sans';
+  src: url('./font/PPPangramSans-Regular.eot');
+  src: url('./font/PPPangramSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./font/PPPangramSans-Regular.woff2') format('woff2'),
+      url('./font/PPPangramSans-Regular.woff') format('woff'),
+      url('./font/PPPangramSans-Regular.ttf') format('truetype'),
+      url('./font/PPPangramSans-Regular.svg#PPPangramSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  letter-spacing: normal;
+}
+
+@font-face {
+  font-family: 'PP Right Grotesk Tall';
+  src: url('./font/PPRightGrotesk-TallMedium.eot');
+  src: url('./font/PPRightGrotesk-TallMedium.eot?#iefix') format('embedded-opentype'),
+      url('./font/PPRightGrotesk-TallMedium.woff2') format('woff2'),
+      url('./font/PPRightGrotesk-TallMedium.woff') format('woff'),
+      url('./font/PPRightGrotesk-TallMedium.ttf') format('truetype'),
+      url('./font/PPRightGrotesk-TallMedium.svg#PPRightGrotesk-TallMedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  letter-spacing: normal;
+}
+
+:root :where(body),
+body {
+	background-color: #FFF;
+  color:var(--theme-color);
+	font-weight: 400;
+	font-size: 1em;
+	font-family: "PP Pangram Sans";
+	font-smooth: always;
+	outline: transparent;
+	line-height: normal;
+  margin: 0;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color:var(--theme-color);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'PP Right Grotesk Tall';
+  font-weight:500;
+  line-height:0.8em;
+  color:var(--theme-color);
+}
+
+h1 {
+  font-size: 4em;
+  color: var(--theme-color);
+}
+
+.globalWrap {
+  padding:120px 0 0;
+}
