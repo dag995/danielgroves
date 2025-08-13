@@ -7,7 +7,8 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''"
+		"prepare": "svelte-kit sync || echo ''",
+		"deploy": "npm run build && wrangler pages deploy"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",
@@ -18,6 +19,7 @@
 		"vite": "^7.0.4"
 	},
 	"dependencies": {
-		"dotenv": "^17.2.1"
+		"dotenv": "^17.2.1",
+		"wrangler": "^4.29.1"
 	}
 }
