@@ -10,7 +10,7 @@
 		"nodejs_als",
 		"nodejs_compat"
 	],
-	"account_id": "e352569629e11d73ca76af478006a36e",
+	// "account_id": "e352569629e11d73ca76af478006a36e",
 	"pages_build_output_dir": ".svelte-kit/cloudflare",
 	"observability": {
 		"enabled": true
