@@ -23,3 +23,24 @@ declare module "svelte/elements" {
 }
 
 export {};
+
+
+declare module "$app/types" {
+	export interface AppTypes {
+		RouteId(): "/" | "/about" | "/builder" | "/contact" | "/page-builder" | "/work";
+		RouteParams(): {
+			
+		};
+		LayoutParams(): {
+			"/": Record<string, never>;
+			"/about": Record<string, never>;
+			"/builder": Record<string, never>;
+			"/contact": Record<string, never>;
+			"/page-builder": Record<string, never>;
+			"/work": Record<string, never>
+		};
+		Pathname(): "/" | "/about" | "/about/" | "/builder" | "/builder/" | "/contact" | "/contact/" | "/page-builder" | "/page-builder/" | "/work" | "/work/";
+		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
+		Asset(): "/favicon.ico" | "/font/PPPangramSans-Bold.eot" | "/font/PPPangramSans-Bold.otf" | "/font/PPPangramSans-Bold.ttf" | "/font/PPPangramSans-Bold.woff" | "/font/PPPangramSans-Bold.woff2" | "/font/PPPangramSans-Regular.eot" | "/font/PPPangramSans-Regular.otf" | "/font/PPPangramSans-Regular.ttf" | "/font/PPPangramSans-Regular.woff" | "/font/PPPangramSans-Regular.woff2" | "/font/PPRightGrotesk-TallMedium.eot" | "/font/PPRightGrotesk-TallMedium.otf" | "/font/PPRightGrotesk-TallMedium.ttf" | "/font/PPRightGrotesk-TallMedium.woff" | "/font/PPRightGrotesk-TallMedium.woff2" | "/robots.txt" | "/styles.css" | string & {};
+	}
+}

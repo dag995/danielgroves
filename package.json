@@ -20,6 +20,8 @@
 	},
 	"dependencies": {
 		"dotenv": "^17.2.1",
+		"sortablejs": "^1.15.6",
+		"svelte-autosize": "^1.1.5",
 		"wrangler": "^4.29.1"
 	}
 }
