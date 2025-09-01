@@ -19,7 +19,7 @@ export const dictionary = {
 		"/builder": [4],
 		"/contact": [5],
 		"/page-builder": [6],
-		"/work": [7]
+		"/work": [~7]
 	};
 
 export const hooks = {

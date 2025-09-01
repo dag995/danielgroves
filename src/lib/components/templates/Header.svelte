@@ -75,7 +75,7 @@
     padding:10px 15px;
   }
   header .inner-wrapper {
-    max-width:1320px;
+    max-width:1240px;
     margin:0 auto;
     display:flex;
     align-items: center;

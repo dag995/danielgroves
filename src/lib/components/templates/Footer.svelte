@@ -103,7 +103,7 @@
     font-size:0.9em;
   }
   footer .wrap {
-    max-width:1340px;
+    max-width:1240px;
     margin:0 auto;
     padding:30px 20px;
     display:flex;

@@ -1,3 +1,4 @@
 <div class="container mx-auto">
-  <h1>Home</h1>
+  <h1>DanielGroves.co.uk</h1>
+  <p>Bristol based WordPress and Javascript (JS) developer.</p>
 </div>

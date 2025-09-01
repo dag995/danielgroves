@@ -82,6 +82,7 @@ h1 {
   max-width:1240px;
   padding:20px;
   margin:0 auto;
+  min-height:70vh;
 }
 
 h1 {
