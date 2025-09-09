@@ -69,29 +69,7 @@
     border:solid 1px #CCC;
     font-size:0.85em;
   }
-  .btn.btn-primary {
-    width:100%;
-    display: inline-block;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: 6px 12px;
-    font-size: 0.9rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    border-radius: 6px;
-    color: #FFF;
-    background-color: var(--theme-red);
-    border-color: var(--theme-red);
-  }
+
   @media (max-width: 781px) {
     .row .col {
       flex-basis: 48%;

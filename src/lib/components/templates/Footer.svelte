@@ -18,7 +18,8 @@
     <div class="col">
       <h5>Discover</h5>
       <ul>
-        <li>Work</li>
+        <li><a href="/services" title="Services">Services</a></li>
+        <li><a href="/work" title="Work">Work</a></li>
       </ul>
 
       <h5 class="mt-24">Support</h5>

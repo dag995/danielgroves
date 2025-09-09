@@ -5,41 +5,15 @@
 
 <div class="container mx-auto">
   
-  <h1>About Me</h1>
-  <p>Known to some as Dan Dan the Website Man I work with businesses on everything digital.</p>
-  <hr />
-  <h2 class="mb-0">Developer Services</h2>
   <div class="row">
     <div class="col">
-      <h3 class="mb-0">WordPress</h3>
-      <p>With over ten years of WordPress experience. Building sites to spec in as close to WordPress core as possible to keep third-party reliance to a minimum.</p>
+      <h1>Daniel Groves • Bristol</h1>
+      <p>Known to some as Dan Dan the Website Man I work with businesses on everything digital.</p>
+      <p>Having supported all types of SME businesses internationally for over 20 years I have a fair grasp of the mechanics of a SME business.</p>
+      <p>Focusing on what was emerging internet based businesses. Those who work from business estates and non-descript warehouse units fufilling orders.</p>
     </div>
     <div class="col">
-      <h3 class="mb-0">Javascript (SvelteKit)</h3>
-      <p>Since SvelteKit launched version 1 I have used it to develop middleware and full standalone, custom systems. For small businesses with specific custom needs SvelteKit is a fast and robust platform to build on.</p>
-    </div>
-    <div class="col">
-      <h3 class="mb-0">WordPress React Blocks</h3>
-      <p>WordPress Gutenberg now WordPress Blocks launched in 2018. One of the biggest changes WordPress has ever made.</p>
-      <p>Blocks allows for perfect block editor integration for both user and outputted function.</p>
-    </div>
-    <div class="col">
-      <h3 class="mb-0">PHP & Javscript</h3>
-      <p>Regardless of framework I can create and develop for any PHP or Javsacript requirements.</p>
-    </div>
-  </div>
-
-  <hr />
-  <h2 class="mb-0">Design Services</h2>
-  <div class="row">
-    <div class="col">
-      <h3>Web Design</h3>
-    </div>
-    <div class="col">
-      <h3>Print Design</h3>
-    </div>
-    <div class="col">
-      <h3>Photography</h3>
+      <img src="/images/photography/lhd_floor_pedal_set_01.jpg" alt="Floor Pedal Set" title="Floor Pedal Set" />
     </div>
   </div>
 </div>
@@ -56,8 +30,8 @@
     gap:2%;
   }
   .row .col {
-    width:23%;
-    flex-basis:23%;
+    width:48%;
+    flex-basis:48%;
     flex-grow:0;
     margin:10px 0;
     padding:0;
