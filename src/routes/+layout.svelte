@@ -18,7 +18,7 @@
 		min-height:100vh;
 		--theme-color: #062e4b; 
 		--theme-red: #DE1F32; 
-		--secondary-color: #416691; 
+		--secondary-color: #062e4b; 
 		--background: #E6EEF4; 
 		--background-color: #FFF;"
 >

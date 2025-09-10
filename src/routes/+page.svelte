@@ -41,7 +41,7 @@
       <img src="/images/photography/rear_light_spider_s3_01.jpg" alt="Rear Lights • S3 Spider" title="Rear Lights • S3 Spider" />
     </div>
     <div class="col-4">
-      <img src="/diagrams/footrest.jpg" alt="Aluminium Footrest" title="Aluminium Footrest" />
+      <img src="/images/diagrams/footrest.jpg" alt="Aluminium Footrest" title="Aluminium Footrest" />
       <h2>Limitations</h2>
       <p>The limitations this brought were time which inturn meant resource. The very nature of avoiding the middle management and constant handing off of work meant expectations had to be managed and practicalities realised.</p>
       <p>This choice to help only a few and to do it well required a long-term outlook and relationships formed with only those I truely got along with and wanted to help.</p>
@@ -55,37 +55,11 @@
       <p>Javascript frameworks (React, Angular, SvelteKit, Next.js etc) emerged to make clever dynamic system available for much more affordable costs.</p>
       <p>These frameworks much like the internets effect on small businesses allowed for small agencies to provide much more value for money in a shorter window.</p>
       <p>Where big businesses used to charged tens to hundreds of thousands, small agencies could provide the same level of resource for a fraction of the cost.</p>
-      <img src="/diagrams/studs_into_bell.jpg" alt="Studs into Bell" title="Studs into Bell" />
+      <img src="/images/diagrams/studs_into_bell.jpg" alt="Studs into Bell" title="Studs into Bell" />
     </div>
 
   </div>
 
-  <hr />
-
-  <h2>Business Support</h2>
-  <div class="row">
-    <div class="col-4">
-      <h3>01. Who</h3>
-      <p>Working with a range of Small and Medium-sized Enterprises (SMEs) to help better their digital presence and business processes.</p>
-      <p>With a background in helping small service based businesses and warehouse eCommerce businesses who fulfill B2B and B2C orders directly.</p>
-      <p>Supporting a wide varierty of industries who typically have the same structure and goals.</p>
-    </div>
-    <div class="col-4">
-      <h3>02. Analysising</h3>
-      <p>Understanding the how the business operates and what a business has to do day-to-day is key to being able to analyse how best to help.</p>
-      <p>An outsiders perspective can provide key insight into what is and isn't working and how a business can better utalise technology and digital to operations smoother.</p>
-    </div>
-    <div class="col-4">
-      <h3>03. Process</h3>
-      <p>Helping at almost every step of the way.</p>
-      <ul>
-        <li>Getting enquiries and sales via websites and marketing</li>
-        <li>Processing enquiries and orders in a CRM or CMS</li>
-        <li>Warehouse middleware to manage orders, ease logistics and reduce errors</li>
-        <li>Aftercare with customer support and guides</li>
-      </ul>
-    </div>
-  </div>
 </div>
 
 <style>
@@ -114,9 +88,6 @@
   .row .col-4 {
     width:31.3334%;
     flex-basis:31.3334%;
-  }
-  .row .col-4 ul {
-    padding:0 0 0 12px;
   }
 
   @media (max-width: 781px) {

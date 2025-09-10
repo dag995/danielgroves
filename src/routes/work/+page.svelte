@@ -13,7 +13,7 @@
   <div class="row">
     {#each data.work as work}
       <div class="col">
-        <img src={`/logos/${work.logo}`} alt={work.title} title={work.title} />
+        <img src={`/images/logos/${work.logo}`} alt={work.title} title={work.title} />
         <h3>{work.title}</h3>
         {#if work.website}
           <p><a href={`https://www.${work.website}`} title={work.title}>www.{work.website}</a></p>

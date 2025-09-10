@@ -157,9 +157,9 @@
   }
   footer h5 {
     font-size:1.1em;
-    color:#416691;
+    color:#062e4b;
     font-weight:500;
-    font-family:"PP Pangram Sans";
+    font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     margin:0 0 10px;
   }
@@ -183,7 +183,7 @@
     box-sizing:border-box;
     display:block;
     text-align: center;
-    font-family:"PP Pangram Sans";
+    font-family: "DM Sans", sans-serif;
     margin:0;
     padding:20px 15px;
     line-height:1.4em;

@@ -43,6 +43,7 @@
       <nav>
         <ul class="nav">
           <li><a href="/about" title="About" target="_self">About</a></li>
+          <li><a href="/who" title="Who We Help" target="_self">Who We Help</a></li>
           <li><a href="/services" title="Services" target="_self">Services</a></li>
           <li><a href="/work" title="Work" target="_self">Work</a></li>
           <li><a href="/contact" title="Contact" target="_self">Contact</a></li>
@@ -105,6 +106,7 @@
     align-items:center;
     display:flex;
     color:#122E49;
+    margin:0 8px;
   }
   header ul li {
     color:#122E49;
@@ -117,6 +119,15 @@
     align-items: center;
     justify-content: space-between;
   }
+  header ul li a:before {
+    content: attr(title) / "";
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    user-select: none;
+    pointer-events: none;
+    font-weight: bold;
+}
   header ul li a:before {
     content: attr(title) / "";
     height: 0;

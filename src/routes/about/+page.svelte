@@ -36,9 +36,6 @@
     margin:10px 0;
     padding:0;
   }
-  .mb-0 {
-    margin-bottom:0;
-  }
   @media (max-width: 781px) {
     .row .col {
       flex-basis: 48%;
