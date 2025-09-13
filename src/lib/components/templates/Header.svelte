@@ -1,10 +1,35 @@
 <script>
   import { base } from '$app/paths'
   import { onMount, onDestroy } from 'svelte'
+
+  const scrollNavBar = 110
+	let lastScroll = 0
+	let show = $state(false)
+	let hoverMenu = $state('')
+	let headerBg = $state(false)
 	let mobile = $state(false)
+
+	onMount(() => {
+		window.onscroll = () => {
+			const current = window.scrollY
+			show = current < scrollNavBar || current < lastScroll ? false : true			
+			if( ( current + 10 ) < lastScroll ) {
+				headerBg = false
+				hoverMenu = ''
+			}
+			if( (current + 10) > lastScroll ) hoverMenu = ''
+			lastScroll = current
+		}
+	})
 </script>
 
-<header class='main-header'>
+<!-- svelte-ignore a11y_no_static_element_interactions -->
+<header 
+  onmouseenter={() => { headerBg = true }}
+  onmouseleave={() => { }}
+  class={`main-header ${headerBg || hoverMenu ? 'bgFFF' : ''}`}
+  class:scrolled={show}
+>
   <div class="wrapper">
     <div class="inner-wrapper">
       
@@ -50,6 +75,10 @@
     transition: background-color 0.3s ease-in-out, top 0.6s ease-in-out;
     background: rgba(255, 255, 255, 0.86);
     border-bottom:solid 1px var(--theme-color);
+  }
+  header.scrolled {
+    transition:background-color 0.3s ease-in-out, top 0.6s ease-in-out;
+    top:-150px;
   }
   header .wrapper {
     padding:10px 15px;
@@ -166,6 +195,9 @@
 
     header nav {
       display:none;
+    }
+    header ul { 
+      flex-wrap: nowrap;
     }
     header nav.active {
       display:block;
