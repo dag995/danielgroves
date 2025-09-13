@@ -1,6 +1,9 @@
 <div class="container mx-auto">
 
   <h1>DanielGroves.co.uk</h1>
+  <p>Providing SME business support for 15+ years.</p>
+
+  <hr />
 
   <div class="row">
     <div class="col-4">
@@ -65,6 +68,11 @@
 <style>
   hr {
     margin:5vh 0;
+  }
+  h1 {
+    font-size:6rem;
+    font-size:clamp(8vw, 10vw, 180px);
+    line-height:0
   }
   h2 {
     margin:20px 0 0;

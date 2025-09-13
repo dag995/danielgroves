@@ -1,11 +1,11 @@
 <svelte:head>
-	<title>Who We Help • Daniel Groves</title>
+	<title>Who • Daniel Groves</title>
 </svelte:head>
 
 
 <div class="container mx-auto">
   
-  <h1>Who We Help</h1>
+  <h1>Supported Businesses</h1>
   <div class="row">
     <div class="col">
       <p>Working with a range of Small and Medium-sized Enterprises (SMEs) to help better their digital presence and business processes.</p>

@@ -30,16 +30,34 @@
   </div>
 
   <hr />
+
   <h2 class="mb-0">Design Services</h2>
   <div class="row">
     <div class="col">
       <h3>Web Design</h3>
+      <p>Simple brouchure websites to full eCommerce system, custom interactive functions, bespoke and unique functions.</p>
     </div>
     <div class="col">
+
       <h3>Print Design</h3>
+      <p>Guides, Brouchures, Signage, Specialist Print Items, One-offs, corporate literature.</p>
     </div>
     <div class="col">
+      <img src="/images/photography/ultraleggera_front_01.jpg" title="Suspension Kit" alt="Suspenion Kit" />
       <h3>Photography</h3>
+      <p>Studio product photography focused on details and technical details.</p>
+    </div>
+    <div class="col">
+      <img src="/images/photography/ultraleggera_front_01.jpg" title="Suspension Kit" alt="Suspenion Kit" />
+      <h3>Branding</h3>
+      <p>Logos, identity and branding for all types of businesses and industies.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <img src="/images/diagrams/footrest.jpg" title="Car Chassis" alt="Car Chassis" />
+      <h3>Technical Drawings</h3>
+      <p>Taking old technical drawings and making them vector or creating new from reference photography to illustrate details for fitting guides or reference.</p>
     </div>
   </div>
 </div>
