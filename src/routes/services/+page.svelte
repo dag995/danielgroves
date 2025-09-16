@@ -1,12 +1,12 @@
 <svelte:head>
-	<title>About • Daniel Groves</title>
+	<title>Services • Daniel Groves</title>
 </svelte:head>
 
 
 <div class="container mx-auto">
-  
   <h1>Services</h1>
-  <p>Bristol based WordPress and Javascript (JS) developer.</p>
+  <p>Bristol based digital business strategist and service provide from the creative to the technical.</p>
+  <p>Supporting businesses in both a customer facing presence online, digital and print and backend system and service support.</p>
   <hr />
   <h2>Developer Services</h2>
   <div class="row">
@@ -37,31 +37,45 @@
 
   <h2>Design Services</h2>
   <div class="row">
+    
     <div class="col">
       <img src="/images/photography/website_design.jpg" title="Yew Therapies" alt="Yew Therapies" />
       <h3>Web Design</h3>
       <p>Simple brouchure websites to full eCommerce system, custom interactive functions, bespoke and unique functions.</p>
     </div>
+    
+    <div class="col">
+      <img src="/images/photography/middleware.jpg" title="Middleware" alt="Middleware" />
+      <h3>Bespoke Systems & Middleware</h3>
+      <p>From interconnecting "middleware" to join existing services or bespoke stand-alone systems the right solution can be found.</p>
+    </div>
+
     <div class="col">
       <img src="/images/photography/print_design.jpg" title="Print Design" alt="Print Design" />
       <h3>Print Design</h3>
       <p>Guides, brouchures, signage, specialist print items, one-offs, corporate literature.</p>
     </div>
+    
     <div class="col">
       <img src="/images/photography/ultraleggera_front_01.jpg" title="Suspension Kit" alt="Suspenion Kit" />
       <h3>Photography</h3>
       <p>Studio product photography focused on details and technical details.</p>
       <p>From micro, pack-shot, exploded packages, full in-focus and lifestyle photography.</p>
+      <p>
+        <a href="/services/photography" title="Photography" class="button">Photography &rsaquo;</a>
+      </p>
     </div>
+  
+  </div>
+  
+  <div class="row">
+  
     <div class="col">
       <img src="/images/photography/branding_logo.svg" title="Infuse Recruitment" alt="Infuse Recruitment" />
       <h3>Branding</h3>
       <p>Logos, identity and branding for all types of businesses and industies. This can include redrawing existing branding or refining current branding for purpose.</p>
     </div>
-  </div>
-  
-  <div class="row">
-  
+
     <div class="col">
       <img src="/images/diagrams/footrest.jpg" title="Car Chassis" alt="Car Chassis" />
       <h3>Technical Drawings</h3>
@@ -72,6 +86,12 @@
       <img src="/images/photography/illustration.jpg" title="Car" alt="Car" />
       <h3>Illustration</h3>
       <p>General illustration from a suite of icon development, graphics for presentation or demonstration.</p>
+    </div>
+
+    <div class="col">
+      <img src="/images/photography/presentation_01.jpg" title="BePivotl Presentation" alt="BePivotl Presentation" />
+      <h3>Presentations</h3>
+      <p>Corporate pitch and presentation decks from email ready PDF to Google slide in-person presentations.</p>
     </div>
   
   </div>
@@ -99,6 +119,30 @@
   .mb-0 {
     margin-bottom:0;
   }
+  .button {
+    display:flex;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    transition: color .15s  ease-in-out, background-color .15s  ease-in-out, border-color .15s  ease-in-out, box-shadow .15s  ease-in-out;
+    background-color:var(--theme-color);
+    border: solid 1px var(--theme-color);
+    border-radius: 22px;
+    color: #FFF;
+    padding:8px;
+  }
+  .button:hover {
+    background-color:#000;
+  }
+  
   @media (max-width: 781px) {
     .row .col {
       flex-basis: 48%;
