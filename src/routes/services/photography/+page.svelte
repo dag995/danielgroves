@@ -21,7 +21,7 @@
       <p>Presenting products together to demonstate how they relate to each other.</p>
     </div>
     <div class="col">
-      <img src="/images/photography/titanium_trailing_arms_02.jpg" title="Trailing Arm" alt="Trailing Arm" />
+      <img src="/images/photography/oil_temprature_sender_01.jpg" title="Oil Temprature Sender" alt="Oil Temprature Sender" />
       <h3 class="mb-0">Lifestyle</h3>
       <p>Atmospheric and moody photography for product promotion. Lifestyle photography is important for social media and product dynamism.</p>
     </div>

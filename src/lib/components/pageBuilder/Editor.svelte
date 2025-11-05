@@ -1,6 +1,9 @@
 <script>
   import { Group, Heading, Paragraph, Blockquote, Spacer, Seperator, Columns, Button, List, AddBlock } from '$lib/components/pageBuilder'
-  let { itemSet = $bindable(), data = $bindable() } = $props()
+  let { 
+    itemSet = $bindable(), 
+    data = $bindable() 
+  } = $props()
 </script>
 
 {#each data as dv, dk}

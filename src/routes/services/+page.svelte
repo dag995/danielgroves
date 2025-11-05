@@ -80,6 +80,9 @@
       <img src="/images/diagrams/footrest.jpg" title="Car Chassis" alt="Car Chassis" />
       <h3>Technical Drawings</h3>
       <p>Taking old technical drawings and making them vector or creating new from reference photography to illustrate details for fitting guides or reference.</p>
+      <p>
+        <a href="/services/technical-drawings" title="Technical Drawings" class="button">Technical Drawings &rsaquo;</a>
+      </p>
     </div>
   
     <div class="col">

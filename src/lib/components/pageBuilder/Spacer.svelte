@@ -1,6 +1,11 @@
 <script>
   import { SettingsMenu } from '$lib/components/pageBuilder'
-  let { allData = $bindable(), itemSet = $bindable(), position, data = $bindable() } = $props()
+  let { 
+    allData = $bindable(), 
+    itemSet = $bindable(), 
+    position, 
+    data = $bindable() 
+  } = $props()
 </script>
 
 

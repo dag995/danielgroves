@@ -1,6 +1,9 @@
 <script>
   import { SidebarItem } from '$lib/components/pageBuilder'
-  let { itemSet = $bindable(), data = $bindable() } = $props()
+  let { 
+    itemSet = $bindable(), 
+    data = $bindable() 
+  } = $props()
   let viewable = $state([]) 
 </script>
 

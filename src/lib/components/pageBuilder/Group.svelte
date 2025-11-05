@@ -1,6 +1,11 @@
 <script>
   import { Editor, SettingsMenu, AddBlock } from '$lib/components/pageBuilder'  
-  let { allData, itemSet = $bindable(), position, data = $bindable() } = $props()
+  let { 
+    allData = $bindable(), 
+    itemSet = $bindable(), 
+    position, 
+    data = $bindable() 
+  } = $props()
 </script>
 
 <section id={data.id} class="group">

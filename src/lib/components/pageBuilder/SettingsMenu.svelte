@@ -1,7 +1,14 @@
 <script>
   import { structure, optionsPreset, blockIcons, blockPresets } from '$lib/components/pageBuilder/structure.js'
-  import { deleteItem } from '$lib/components/pageBuilder/crud.js'
-  let { allData = $bindable(), data = $bindable(), itemSet = $bindable(), id, options, position } = $props()
+  import { deleteItem, moveItem } from '$lib/components/pageBuilder/crud.js'
+  let { 
+    allData = $bindable(), 
+    data = $bindable(), 
+    itemSet = $bindable(), 
+    id, 
+    options, 
+    position 
+  } = $props()
   let open = $state('')
   let optionsSet = optionsPreset.map(op => op.filter(o => options.includes(o.id)))
 </script>
@@ -21,8 +28,7 @@
           aria-label="move element up"
           onclick={e => {
             e.preventDefault()
-
-            console.log({ data, position, itemSet })
+            moveItem(allData, id, false)
           }}
         >
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true" focusable="false">]
@@ -41,8 +47,7 @@
           aria-label="move element down"
           onclick={e => {
             e.preventDefault()
-            console.log(allData, position)
-            // console.log({ data, position, itemSet })
+            moveItem(allData, id, true)
           }}
         >
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true" focusable="false">]
@@ -60,8 +65,8 @@
         aria-label="delete element"
         onclick={e => { 
           e.preventDefault()
-          // deleteItem(data, itemSet)
-          data = ''
+          deleteItem(data, itemSet)
+          itemSet = ''
         }}
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12 13.06l3.712 3.713 1.061-1.06L13.061 12l3.712-3.712-1.06-1.06L12 10.938 8.288 7.227l-1.061 1.06L10.939 12l-3.712 3.712 1.06 1.061L12 13.061z"></path></svg>
