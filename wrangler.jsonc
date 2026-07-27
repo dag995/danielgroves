@@ -19,7 +19,9 @@
 		{
 			"binding": "DB",
 			"database_name": "danielgrovescouk",
-			"database_id": "45d46992-ff99-4b9a-93bb-12450b646fe9"
+			"database_id": "45d46992-ff99-4b9a-93bb-12450b646fe9",
+			"preview_database_id": "local-test-db",
+			"migrations_dir": "local-test-db"
 		}
 	]
 	/**

@@ -35,6 +35,9 @@
       <p>Simplifying down the problem to its core to avoid bloat, fatigue and mis-direction.</p>
     </div>
   </div>
+  
+  <h2>An all encompassing creative and technical digital agency.</h2>
+
 </div>
 
 
@@ -42,17 +45,19 @@
   <div class="item">
     <div>
       <h2>01</h2>
-      <p></p>
+      <p>We immerse ourselves into your world, gathering granular detail and emphasising with the quirks and facets that make you unique.</p>
     </div>
   </div>
   <div class="item">
     <div>
       <h2>02</h2>
+      <p>With an understanding of the process and culture we work in tandem with you to methodically create solutions to problems.</p>
     </div>
   </div>
   <div class="item">
     <div>
       <h2>03</h2>
+      <p>Without compromise we strive to deliver solutions for better efficiency, higher productivity and a greater all round experience.</p>
     </div>
   </div>
 </div>
