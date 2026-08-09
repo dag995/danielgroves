@@ -24,7 +24,7 @@ export async function GET() {
 		>
 			${urls.map(u => `<url>
         <loc>${u}</loc>
-        <lastmod>2025-12-08T07:37:46+00:00</lastmod>
+        <lastmod>2026-08-09T09:19:00+00:00</lastmod>
         <image:image>
           <image:loc>https://www.danielgroves.co.uk/images/placeholder.png</image:loc>
         </image:image>
