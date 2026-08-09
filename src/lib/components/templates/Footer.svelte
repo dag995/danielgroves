@@ -20,23 +20,14 @@
       <ul>
         <li><a href="/services" title="Services">Services</a></li>
         <li><a href="/work" title="Work">Work</a></li>
-      </ul>
-
-      <h5 class="mt-24">Support</h5>
-      <ul>
-        <li>Contact</li>
-        <li>Privacy Policy</li>
+        <li><a href="/blog" title="Blog">Blog</a></li>
       </ul>
     </div>
     
     <div class="col">
-      <h5>Shop</h5>
+      <h5 class="mt-24">Support</h5>
       <ul>
-      </ul>
-
-      <h5 class="mt-24">Legal</h5>
-      <ul>
-        <li>Privacy Policy</li>
+        <li>Contact</li>
       </ul>
     </div>
 
