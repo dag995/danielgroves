@@ -6,7 +6,7 @@
   <h1>Bristol Balloon Fiesta - Saturday August 8th 2026</h1>
   <p>A selection of photos taken at the Saturday mass assent and night glow of the 2026 Bristol Balloon Fiesta.</p>
   <img src="/images/blog-260808/balloon_01.jpg" title="Bristol Balloon Fiesta 2026" alt="Bristol Balloon Fiesta 2026" />
-  <img src="/images/blog-260808/balloon_02.jpg" title="Bristol Balloon Fiesta 2026" alt="Bristol Balloon Fiesta 2026" />
+  <img src="/images/blog-260808/balloon_15.jpg" title="Bristol Balloon Fiesta 2026" alt="Bristol Balloon Fiesta 2026" />
   <img src="/images/blog-260808/balloon_03.jpg" title="Bristol Balloon Fiesta 2026" alt="Bristol Balloon Fiesta 2026" />
   <img src="/images/blog-260808/balloon_04.jpg" title="Bristol Balloon Fiesta 2026" alt="Bristol Balloon Fiesta 2026" />
   <img src="/images/blog-260808/balloon_05.jpg" title="Bristol Balloon Fiesta 2026" alt="Bristol Balloon Fiesta 2026" />
