@@ -1,6 +1,11 @@
 <script>
   const posts = [
     {
+      url: 'bristol-photography-260810',
+      title: 'Bristol Architectural Photography Monday August 10th 2026',
+      img: 'blog-260810/bristol_10-08-26_06.jpg',
+      desc: 'Bristol Architectural Photography Monday August 10th 2026'
+    }, {
       url: 'bristol-photography-260809',
       title: 'Bristol Architectural Photography - Sunday August 9th 2026',
       img: 'blog-260809/building_01.jpg',

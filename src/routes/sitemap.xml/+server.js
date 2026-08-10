@@ -10,6 +10,9 @@ export async function GET() {
     'https://www.danielgroves.co.uk/work',
     'https://www.danielgroves.co.uk/contact',
     'https://www.danielgroves.co.uk/blog',
+    'https://www.danielgroves.co.uk/blog/bristol-photography-260810',
+    'https://www.danielgroves.co.uk/blog/bristol-photography-260809',
+    'https://www.danielgroves.co.uk/blog/bristol-balloon-fiesta-2026'
   ]
 
 	return new Response(
