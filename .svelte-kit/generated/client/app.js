@@ -18,7 +18,8 @@ export const nodes = [
 	() => import('./nodes/14'),
 	() => import('./nodes/15'),
 	() => import('./nodes/16'),
-	() => import('./nodes/17')
+	() => import('./nodes/17'),
+	() => import('./nodes/18')
 ];
 
 export const server_loads = [];
@@ -28,18 +29,19 @@ export const dictionary = {
 		"/about": [3],
 		"/blog": [4],
 		"/blog/bristol-balloon-fiesta-2026": [5],
-		"/blog/bristol-photography-260809": [6],
-		"/blog/bristol-photography-260810": [7],
-		"/builder": [8],
-		"/contact": [9],
-		"/diagrams": [10],
-		"/page-builder": [11],
-		"/pages": [~12],
-		"/services": [13],
-		"/services/photography": [14],
-		"/services/technical-drawings": [15],
-		"/who": [16],
-		"/work": [~17]
+		"/blog/bristol-byzantine-260811": [6],
+		"/blog/bristol-photography-260809": [7],
+		"/blog/bristol-photography-260810": [8],
+		"/builder": [9],
+		"/contact": [10],
+		"/diagrams": [11],
+		"/page-builder": [12],
+		"/pages": [~13],
+		"/services": [14],
+		"/services/photography": [15],
+		"/services/technical-drawings": [16],
+		"/who": [17],
+		"/work": [~18]
 	};
 
 export const hooks = {

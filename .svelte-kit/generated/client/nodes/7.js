@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/blog/bristol-photography-260810/+page.svelte";
+export { default as component } from "../../../../src/routes/blog/bristol-photography-260809/+page.svelte";

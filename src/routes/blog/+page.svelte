@@ -1,6 +1,11 @@
 <script>
   const posts = [
     {
+      url: 'bristol-byzantine-260811',
+      title: 'Bristol Byzantine Architectural Photography',
+      img: 'blog-260811/the_granary_bristol_01.jpg',
+      desc: 'Photos taken in and around the harbourside of the Byzantine architecture.'
+    }, {
       url: 'bristol-photography-260810',
       title: 'Bristol Architectural Photography Monday August 10th 2026',
       img: 'blog-260810/bristol_10-08-26_06.jpg',
