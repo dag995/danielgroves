@@ -1,6 +1,11 @@
 <script>
   const posts = [
     {
+      url: 'bath-photography-260816',
+      title: 'Bath Photography Sunday August 16th 2026',
+      img: 'blog-260816/blog_post_260816_03C.jpg',
+      desc: 'Photos taken in Bath, Somerset.'
+    }, {
       url: 'bristol-photography-260812',
       title: 'Bristol Harbourside Photography Wednesday August 12th 2026',
       img: 'blog-260812/harbourside_120826_01.jpg',

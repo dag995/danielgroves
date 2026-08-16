@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/blog/bristol-byzantine-260811/+page.svelte";
+export { default as component } from "../../../../src/routes/blog/bristol-balloon-fiesta-2026/+page.svelte";

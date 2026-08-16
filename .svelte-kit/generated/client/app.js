@@ -20,7 +20,8 @@ export const nodes = [
 	() => import('./nodes/16'),
 	() => import('./nodes/17'),
 	() => import('./nodes/18'),
-	() => import('./nodes/19')
+	() => import('./nodes/19'),
+	() => import('./nodes/20')
 ];
 
 export const server_loads = [];
@@ -29,21 +30,22 @@ export const dictionary = {
 		"/": [~2],
 		"/about": [3],
 		"/blog": [4],
-		"/blog/bristol-balloon-fiesta-2026": [5],
-		"/blog/bristol-byzantine-260811": [6],
-		"/blog/bristol-photography-260809": [7],
-		"/blog/bristol-photography-260810": [8],
-		"/blog/bristol-photography-260812": [9],
-		"/builder": [10],
-		"/contact": [11],
-		"/diagrams": [12],
-		"/page-builder": [13],
-		"/pages": [~14],
-		"/services": [15],
-		"/services/photography": [16],
-		"/services/technical-drawings": [17],
-		"/who": [18],
-		"/work": [~19]
+		"/blog/bath-photography-260816": [5],
+		"/blog/bristol-balloon-fiesta-2026": [6],
+		"/blog/bristol-byzantine-260811": [7],
+		"/blog/bristol-photography-260809": [8],
+		"/blog/bristol-photography-260810": [9],
+		"/blog/bristol-photography-260812": [10],
+		"/builder": [11],
+		"/contact": [12],
+		"/diagrams": [13],
+		"/page-builder": [14],
+		"/pages": [~15],
+		"/services": [16],
+		"/services/photography": [17],
+		"/services/technical-drawings": [18],
+		"/who": [19],
+		"/work": [~20]
 	};
 
 export const hooks = {
