@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-  <title>{title} • Blog • Daniel Groves</title>
+  <title>{seo.title} • Blog • Daniel Groves</title>
   <meta name="description" content={seo.description} />
   <meta property="og_site_name" content={seo.url} />
   <meta property="og:url" content={seo.fullURL} />
