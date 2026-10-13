@@ -3,7 +3,7 @@
     {
       url: 'bristol-photography-260823',
       title: 'Bristol Photography Sunday August 23rd 2026',
-      img: 'blog-260823/blog_post_260823_01.jpg',
+      img: 'blog-260823/blog_26-08-23_01.jpg',
       desc: 'Photos taken in Bristol.'
     }, {
       url: 'bath-photography-260816',

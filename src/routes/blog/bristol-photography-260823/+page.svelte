@@ -7,7 +7,7 @@
     url: base_url,
     fullURL: `${base_url}${page.url.pathname.toString()}`,
     description: 'A selection of photos taken in Bristol',
-    image: `${base_url}images/blog-260816/blog_post_260816_03C.jpg`
+    image: `${base_url}images/blog-260823/blog_26-08-23_01.jpg`
   }
 </script>
 
@@ -40,12 +40,12 @@
   <p>A selection of photos taken in Bristol.</p>
   <p>All the photographs are taken on a Sony A7III with a FE 2.8 / 50 Macro Sony lens.</p>
   
-  <img src="/images/blog-260823/blog_post_260823_01.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
-  <img src="/images/blog-260823/blog_post_260823_02.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
-  <img src="/images/blog-260823/blog_post_260823_03.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
-  <img src="/images/blog-260823/blog_post_260823_04.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
-  <img src="/images/blog-260823/blog_post_260823_05.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
-  <img src="/images/blog-260823/blog_post_260823_06.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
-  <img src="/images/blog-260823/blog_post_260823_07.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
-  <img src="/images/blog-260816/blog_post_260823_08.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
+  <img src="/images/blog-260823/blog_26-08-23_01.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
+  <img src="/images/blog-260823/blog_26-08-23_02.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
+  <img src="/images/blog-260823/blog_26-08-23_03.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
+  <img src="/images/blog-260823/blog_26-08-23_04.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
+  <img src="/images/blog-260823/blog_26-08-23_05.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
+  <img src="/images/blog-260823/blog_26-08-23_06.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
+  <img src="/images/blog-260823/blog_26-08-23_07.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
+  <img src="/images/blog-260816/blog_26-08-23_08.jpg" alt="Bristol Photography Sunday August 23rd 2026" title="Bristol Photography Sunday August 23rd 2026" />
 </div>
