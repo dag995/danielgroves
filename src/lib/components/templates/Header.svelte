@@ -42,11 +42,46 @@
 
       <nav class={mobile ? 'active' : ''}>
         <ul class="nav">
-          <li><a href="/about" title="About" target="_self">About</a></li>
-          <li><a href="/who" title="Who" target="_self">Who</a></li>
-          <li><a href="/services" title="Services" target="_self">Services</a></li>
-          <li><a href="/work" title="Work" target="_self">Work</a></li>
-          <li><a href="/contact" title="Contact" target="_self">Contact</a></li>
+          <li>
+            <a 
+              href="/about" 
+              title="About" 
+              onclick={() => { 
+                mobile = false 
+              }}
+            >About</a></li>
+          <li>
+            <a 
+              href="/who" 
+              title="Who" 
+              onclick={() => { 
+                mobile = false 
+              }}
+            >Who</a></li>
+          <li>
+            <a 
+              href="/services" 
+              title="Services" 
+              onclick={() => { 
+                mobile = false 
+              }}
+            >Services</a></li>
+          <li>
+            <a 
+              href="/work" 
+              title="Work" 
+              onclick={() => { 
+                mobile = false 
+              }}
+            >Work</a></li>
+          <li>
+            <a 
+              href="/contact" 
+              title="Contact" 
+              onclick={() => { 
+                mobile = false 
+              }}
+            >Contact</a></li>
         </ul>
       </nav>
       <a

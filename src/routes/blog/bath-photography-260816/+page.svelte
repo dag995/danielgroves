@@ -1,5 +1,38 @@
+<script>
+  import { page } from '$app/stores'
+  
+  const base_url = 'https://danielgroves.co.uk/'
+  const seo = {
+    title: 'Bath Photography Sunday August 16th 2026',
+    url: base_url,
+    fullURL: `${base_url}${page.url.pathname.toString()}`,
+    description: 'A selection of photos taken in Bath, Somerset.',
+    image: `${base_url}images/blog-260816/blog_post_260816_03C.jpg`
+  }
+</script>
+
 <svelte:head>
-	<title>Bath Photography Sunday 16th 2026 • Blog • Daniel Groves</title>
+  <title>{title} • Blog • Daniel Groves</title>
+  <meta name="description" content={seo.description} />
+  <meta property="og_site_name" content={seo.url} />
+  <meta property="og:url" content={seo.fullURL} />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{seo.title}" />
+  <meta property="og:description" content={seo.description} />
+  <meta property="og:image" content={seo.image} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:domain" content={seo.url} />
+  <meta property="twitter:url" content={seo.fullURL} />
+  <meta name="twitter:title" content={seo.title} />
+  <meta name="twitter:description" content={seo.description} />
+  <meta name="twitter:image" content={seo.image}>
+  {@html `<script type="application/ld+json">{
+   "@context": "https://schema.org",
+   "@type": "Website",
+   "name": "${seo.title} • ${seo.url}",
+   "url": "${seo.fullURL}",
+   "logo": ${seo.image}  
+   }</script>`}
 </svelte:head>
 
 <div class="container mx-auto">
