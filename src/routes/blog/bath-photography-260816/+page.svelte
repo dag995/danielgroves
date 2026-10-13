@@ -5,7 +5,7 @@
   const seo = {
     title: 'Bath Photography Sunday August 16th 2026',
     url: base_url,
-    fullURL: `${base_url}${page?.url?.pathname.toString()}`,
+    fullURL: `${base_url}${$page?.url?.pathname.toString()}`,
     description: 'A selection of photos taken in Bath, Somerset.',
     image: `${base_url}images/blog-260816/blog_post_260816_03C.jpg`
   }
