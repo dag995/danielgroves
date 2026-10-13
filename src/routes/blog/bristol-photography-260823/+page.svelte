@@ -5,7 +5,7 @@
   const seo = {
     title: 'Bristol Photography Sunday August 23rd 2026',
     url: base_url,
-    fullURL: `${base_url}${page.url.pathname.toString()}`,
+    fullURL: `${base_url}${page?.url?.pathname.toString()}`,
     description: 'A selection of photos taken in Bristol',
     image: `${base_url}images/blog-260823/blog_26-08-23_01.jpg`
   }
